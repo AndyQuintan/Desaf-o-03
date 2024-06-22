@@ -1,14 +1,18 @@
 body{
     background-color: #e11364;
+   padding: 190px;
 }
 
 h1{
     color: white;
+    border-left: 5px solid white ;
+    border-right: 5px solid white;
     background-color:#bc105c ;
     font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     text-align: center;
+    padding: 15px
 }
 
 article{
@@ -49,4 +53,27 @@ article section{
     margin: 10px;
     background-color: white;
     padding-bottom: 12px;
+}
+
+.centrar{
+   display: flex;
+   justify-content: center;
+   height: 514px;
+   margin-left: 10px;
+   margin-right: 800px;
+     }
+      
+.margen{
+    padding: 10px;
+}
+
+#modificar{
+    background-color: #E96093;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    margin-top: 30px;
+    
 }
