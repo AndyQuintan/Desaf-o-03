@@ -1,0 +1,34 @@
+body{
+    background-color: #e11364;
+}
+
+h1{
+    color: white;
+    background-color:#bc105c ;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    text-align: center;
+}
+
+article{
+    background-color: #bc105c;
+}
+
+h2{
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    padding: 2%;
+    
+}
+
+h3{
+color: #a01527;
+font-size: 15px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: normal;
+text-align: end;
+
+}
