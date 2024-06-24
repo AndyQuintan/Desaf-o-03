@@ -21,6 +21,7 @@ article{
 
 h2{
     color: white;
+    background-color: #BC105C;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
@@ -76,4 +77,8 @@ article section{
     height: 40px;
     margin-top: 30px;
     
+}
+
+#personajes{
+    inset-block:;
 }
