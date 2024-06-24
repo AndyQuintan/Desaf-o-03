@@ -1,84 +1,98 @@
-body{
+body {
     background-color: #e11364;
-   padding: 190px;
+    padding: 20px;
+    margin: 0%;
 }
 
-h1{
+h1 {
     color: white;
-    border-left: 5px solid white ;
+    border-left: 5px solid white;
     border-right: 5px solid white;
-    background-color:#bc105c ;
+    background-color: #bc105c;
     font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     text-align: center;
-    padding: 15px
+    padding: 10px;
 }
 
-article{
+article {
     background-color: #bc105c;
+    padding: 12px;
 }
 
-h2{
+h2 {
     color: white;
-    background-color: #BC105C;
+    background-color: #bc105c;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
-    padding: 2%;
-    
+    padding: 0%;
 }
 
-h3{
-color: #a01527;
-font-size: 15px;
-font-family: Arial, Helvetica, sans-serif;
-font-weight: normal;
-text-align: end;
-border-bottom: dotted;
-padding: 12px;
-
-}
-
-button {
-    color: white;
-    background-color: #2c8f20;
+h3 {
+    color: #a01527;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
-    margin: 16px auto;
-    display: block; 
-
+    text-align: end;
+    border-bottom: dotted;
+    padding: 12px;
 }
-article section{
+
+
+.boton-redondeado {
+    color: white;
+    background-color: #2c8f20;
+    border: none;
+    padding: 10px 20px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.boton-redondeado:hover {
+    background-color: #e11364;
+}
+article section {
     margin: 10px;
     background-color: white;
     padding-bottom: 12px;
 }
 
-.centrar{
-   display: flex;
-   justify-content: center;
-   height: 514px;
-   margin-left: 10px;
-   margin-right: 800px;
-     }
-      
-.margen{
+img {
+    width: 95%;
+    height: auto;
+}
+
+.centrar {
+    display: flex;
+    justify-content: center;
+    height: 514px;
+    margin-left: 10px;
+    margin-right: 800px;
+}
+
+.margen {
     padding: 10px;
 }
 
-#modificar{
-    background-color: #E96093;
+#modificar {
+    background-color: #e96093;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 40px;
     margin-top: 30px;
-    
 }
 
-#personajes{
-    inset-block:;
+#personajes {
+    inset-block: ;
 }
