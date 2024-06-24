@@ -73,14 +73,6 @@ img {
     margin: 16px;
 }
 
-.centrar {
-    display: flex;
-    justify-content: center;
-    height: 514px;
-    margin-left: 10px;
-    margin-right: 800px;
-}
-
 .margen {
     padding: 10px;
 }
