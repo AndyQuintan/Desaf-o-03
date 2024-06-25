@@ -1,9 +1,9 @@
 
 
 body {
-    background-color: #e96093;
+    background-color:white;
     color: rgb(51, 51, 51); 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -21,12 +21,14 @@ body {
 
 h1 {
     color: white;
-    background-color: #bc105c;
+    background-color:purple;
+    font-family: cursive;
     font-size: 40px;
     font-weight: normal;
     text-align: center;
     padding: 10px;
     margin-top: 0;
+    border:black double 10px;
 }
 
 article {
@@ -41,23 +43,27 @@ article {
 
 
 h2 {
-    color: white;
-    background-color: #bc105c;
+    color: black;
+    background-color: purple;
+    font-family: cursive;
     font-size: 24px; 
     font-weight: normal;
-    padding: 10px;
+    padding: 0px;
     text-align: center;
     width: 100%; 
     margin-bottom: 15px; 
+    border-left: gray solid 5px;
+    border-right: gray solid 5px;
 }
 
 h3 {
     color: #e11364; 
+    background-color: black;
     font-size: 18px; 
     font-weight: normal;
     text-align: center;
     border-bottom: dotted 1px #e11364; 
-    padding-bottom: 10px; 
+    padding-bottom: 0px; 
 }
 
 .boton-redondeado {
@@ -91,11 +97,11 @@ img {
     height: auto;
     margin-bottom: 10px; 
     border-radius: 8px;
-}
+    }
 
 #modificar {
-    background-color: #3a3a3a;
-    color: white;
+    background-color: purple;
+    color: black;
     text-align: center;
     padding: 12px 24px; 
     border-radius: 20px; 
